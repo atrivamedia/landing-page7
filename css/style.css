@@ -208,8 +208,10 @@ footer.bg-primary {
 	width: 80% !important;
 	}
 }
-
+/* Wesley: remove the mid-width: 768px; -- a potential fix for the half screen issue on iPhone 5s --
 @media(min-width: 768px) and (max-width: 990px){
+*/
+@media(max-width: 990px){
 	.jumbotron img.app-btn {
 	width: 40%;
 	}
