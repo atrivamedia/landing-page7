@@ -126,18 +126,18 @@ input#Field0{
 	width:560px;
 }
 
-input#Field1{
+input#Field6{
 	font-size: 16px;
 	line-height: 24px;
 	margin-left:39% !important;
 	margin: 0px;
 	padding-left:20px !important;
 	/* width: 40%; */
-	width:300px;
-	/*width:560px; 370px */
+	width:370px;
+	/*width:560px; */
 }
 
-/* Add Field1 for new Wufoo form v3 
+/* Add Field1 for new Wufoo form v3 */
 input#Field1{
 	font-size: 16px;
 	line-height: 24px;
@@ -146,7 +146,7 @@ input#Field1{
 	padding-left:20px !important;
 	width:370px;
 }
-*/
+
 
 .form-group{
 	margin-bottom:0px !important;
@@ -181,12 +181,13 @@ footer.bg-primary {
 /* MEDIA QUERIES*/
 
 @media(max-width: 1200px){
+/*	
 	input#Field1{
 	margin-left:15% !important;
 	padding-left:20px !important;
 	width:600px !important;
 	}
-
+*/
 	input.btTxt {
 	width: 50% !important;
 	}
@@ -196,13 +197,13 @@ footer.bg-primary {
 	.showcase-img {
 		display: none;
 	}
-
+/*
 	input#Field1{
 	margin-left:15% !important;
 	padding-left:20px !important;
 	width:565px;
 	}
-
+*/
 	input.btTxt {
 	width: 80% !important;
 	}
@@ -240,6 +241,12 @@ footer.bg-primary {
 	width:520px;	
 	}
 
+	input#Field1{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:520px;	
+	}
+
 	input.btTxt {
 	width: 100% !important;
 	}
@@ -265,6 +272,12 @@ footer.bg-primary {
 	}
 
 	input#Field6{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:380px;	
+	}
+
+	input#Field1{
 	margin-left:0 !important;
 	padding-left:20px !important;
 	width:380px;	
@@ -300,6 +313,12 @@ footer.bg-primary {
 	}
 
 	input#Field6{
+	margin-left:0 !important;
+	padding-left:20px !important;
+	width:275px;
+	}
+
+	input#Field1{
 	margin-left:0 !important;
 	padding-left:20px !important;
 	width:275px;
