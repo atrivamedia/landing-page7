@@ -335,6 +335,10 @@ footer.bg-primary {
 		font-size: 19px !important;
 	}
 
+	div.portfolio-box-caption-content div.project-name p {
+	font-size: 10px !important; /* original 6px */
+	}
+
 	footer p {
 		float:none;
 		text-align: center;
